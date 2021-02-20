@@ -23,4 +23,9 @@ body {
     font-size: 30px;
     border: 3px solid #000;
 }
+
+#cartel {
+    padding: 70px 0px 0px 220px;
+    margin: 30px;
+}
   
