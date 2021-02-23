@@ -6,35 +6,59 @@
     <title>LiveMusic</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Truculenta:wght@500&display=swap" rel="stylesheet"> 
   </head>
 
   <body>
-        <!--Interfaz 1-->
-<div id="interfaz1">
-    <div class="block-element" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
-    <h1 id="tprincipal">Bienvenido a LiveMusic</h1>
-    <p id="tsecundario">Ahora puedes vivir la experiencia virtual de un concierto</p>
+    <!--Interfaz 1-->
+    <div id="interfaz1">
+      <div class="block-element" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
+      <h1 id="tprincipal">Bienvenido a LiveMusic</h1>
+      <p id="tsecundario">Ahora puedes vivir la experiencia virtual de un concierto</p>
     
-    <div class="noticia">
+      <div class="noticia">
       <img class="izquierda" src="./img/Cartel evento.jpg" style="height: 473px; width: 319px;">
-      <aside> <br> <br> <br> <br> <br> <br> <br> <br>
+      <aside> <br> <br> <br> <br> <br> 
           ROCK FESTIVAL <br>
-      ¡EN CONCIERTO! <br>
-  Live Streaming <br><br><br>
-Fecha: 20/marzo/2021 <br>
-Hora: 8:00 pm <br>
-Precio: $50.000 COP </aside> <br>
-<div class="reset"></div>
-<button id="comprar">COMPRAR</button>
+          ¡EN CONCIERTO! <br>
+          Live Streaming <br><br><br>
+          Fecha: 20/marzo/2021 <br>
+          Hora: 8:00 pm <br>
+          Precio: $50.000 COP <br>
+          Metodo de pago: Tarjeta de crédito </aside> <br>
+      <div class="reset"></div>
+      <button id="comprar">COMPRAR</button>
+      </div>
     </div>
-</div>
 
-<div id="interfaz2">
-    <!--Interfaz 2-->
-    <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
+    <!--Interfaz 2-->    
+    <div id="interfaz2">
+      <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
+
+      <img class="plantilla" src="./img/imagen tarjeta.png">
+        
+         <form>
+           <div id="casillas">
+           <p>Ingrese el número de la tarjeta</p>
+           <input size="16" class="caja" type="number"
+            placeholder="Sin puntos ni comas">
+           </input ><br>
+
+           <p>Ingrese su nombre</p>
+           <input id="nombre" class="caja" type="text"
+            placeholder="Ingrese aquí su nombre">
+           </input ><br><br>
+           <button id="validar">VALIDAR</button>
+          </div>
+         </form>
+
+       <div class="comprobar"></div>
+     
+      </div>
+
+
 
   </div>    
     <header></header>
