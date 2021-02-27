@@ -34,27 +34,32 @@
     </div>
 
     <!--Interfaz 2-->    
-    <div id="interfaz2">
+    <div id="interfaz2" class="ocultar">
       <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
 
       <img class="plantilla" src="./img/imagen tarjeta.png">
         
-         <form>
            <div id="casillas">
            <p>Ingrese el número de la tarjeta</p>
-           <input size="16" class="caja" type="number"
-            placeholder="Sin puntos ni comas">
+           <input type="text" class="caja" class="inputNumber" id="numeroTarjeta" maxlength="16" pattern="^[0-9,$]*$" placeholder="Solo números">
            </input ><br>
 
            <p>Ingrese su nombre</p>
            <input id="nombre" class="caja" type="text"
             placeholder="Ingrese aquí su nombre">
            </input ><br><br>
-           <button id="validar">VALIDAR</button>
+           <p id="alertNumero" class="ocultar"></p>
+           <button id="validar" value="validacion">VALIDAR</button>
           </div>
-         </form>
 
-       <div class="comprobar"></div>
+         <!--InterfazValidacion-->
+       <div id="interfazValidacion" class="mostrar">
+
+        <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
+        <p id="valida"></p>
+        <P id="noValida"></P>
+        <h1 id="mensaje"></h1>
+       </div>
      
       </div>
 

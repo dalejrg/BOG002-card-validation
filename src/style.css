@@ -3,8 +3,12 @@
     display: none;
 }
 
+#interfazValidacion{
+    display: none;
+}
+
 body {
-    background: url(../src/img/fondo-predeterminado.jpg) 50%;
+    background: url(./img/fondo-predeterminado.jpg) 50%;
 }
 
 #tprincipal {
@@ -66,8 +70,9 @@ div.noticia img.izquierda {
 .plantilla {
     width: 582px;
     height: 338px;
-    padding: 50px 0px 0px 650px;
+    padding: 5% 0% 0% 35%;
 }
+
  
 #casillas {
     font-family: 'Tenor Sans', sans-serif;
