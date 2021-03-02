@@ -1,38 +1,31 @@
 const validator = {
-  isValid: (validacionTarjeta) => {
-      const tamaño = validacionTarjeta.length;
-      const ultimaPosicion = tamaño -1;
-      let numeroInvertido = '';
-      for ( let i=ultimaPosicion; i>=0; i--) {
-                numeroInvertido = numeroInvertido + validacionTarjeta[i];
-      }
-      const newArray = Array.from(numeroInvertido).map(Number);
-      let listaImpares = [];
 
-      for (let i=0; i<newArray.length; i++){
-          if(i%2!==0){
-              listaImpares.push(newArray[i]*2);
-          }else {
-              listaImpares.push(newArray[i]*1);
-          }
-      }
-      let lista2 = [];
+  isValid : function isValid(numeroTarjeta){
+    let numeroString = numeroTarjeta.toString()
+    let tamañoNumero = numeroString.length
+    let arrayNumero = []
+        for (let i = (tamañoNumero - 1); i >= 0; i--)
+          { arrayNumero.push(parseInt(numeroString[i]))}
+    
+  console.log(arrayNumero);
+  }
+  
+  /*isValid: (numeroTarjeta) => {
+      let numeroString = numeroTarjeta.toString()
+      let tamañoNumero = numeroString.length
+      let arrayNumero = []
+    
+        for (let i = (tamañoNumero - 1); i >= 0; i--)
+            { arrayNumero.push(parseInt(numeroString[i]))}
       
-      for (let i=0; i<listaImpares.length; i++){
-          if (listaImpares[i] >=10){
-              lista2.push((listaImpares[i]-10)+1);
-          }else {
-              lista2.push(listaImpares[i]*1);
-          }
-      }
-      const total = lista2.reduce((sum, current)=> sum + current, 0);
-
-      let verificado = false;
-      if (total%10===0){
-          verificado = true
-      }
-      return verificado
-  },
+    console.log(numeroTarjeta);
+  }*/
+    
+    
+    
+    
+    
+    
   
 }
 

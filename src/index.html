@@ -9,59 +9,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Truculenta:wght@500&display=swap" rel="stylesheet"> 
+  
+    <!--Encabezado-->
+    <div class="block-element" 
+           style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
   </head>
 
   <body>
     <!--Interfaz 1-->
     <div id="interfaz1">
-      <div class="block-element" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
+
       <h1 id="tprincipal">Bienvenido a LiveMusic</h1>
       <p id="tsecundario">Ahora puedes vivir la experiencia virtual de un concierto</p>
     
       <div class="noticia">
-      <img class="izquierda" src="./img/Cartel evento.jpg" style="height: 473px; width: 319px;">
-      <aside> <br> <br> <br> <br> <br> 
+        <img class="izquierda" src="./img/Cartel evento.jpg" 
+           style="height: 543px; width: 389px;">
+
+        <!--Informacion evento-->   
+        <aside> <br> <br> <br>
           ROCK FESTIVAL <br>
           ¡EN CONCIERTO! <br>
           Live Streaming <br><br><br>
           Fecha: 20/marzo/2021 <br>
           Hora: 8:00 pm <br>
           Precio: $50.000 COP <br>
-          Metodo de pago: Tarjeta de crédito </aside> <br>
-      <div class="reset"></div>
-      <button id="comprar">COMPRAR</button>
+          Metodo de pago: Tarjeta de crédito 
+        </aside> <br><br><br>
+      
+        <!--Boton adquirir entrada-->
+        <button id="adquirir">Adquirir Entrada</button>
       </div>
+
     </div>
 
     <!--Interfaz 2-->    
     <div id="interfaz2" class="ocultar">
-      <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
 
       <img class="plantilla" src="./img/imagen tarjeta.png">
         
-           <div id="casillas">
-           <p>Ingrese el número de la tarjeta</p>
-           <input type="text" class="caja" class="inputNumber" id="numeroTarjeta" maxlength="16" pattern="^[0-9,$]*$" placeholder="Solo números">
-           </input ><br>
+        <div id="casillas">
+          <p>Ingrese el número de la tarjeta</p>
+          <input type="text" class="inputNumber" id="numeroTarjeta" 
+                  maxlength="16" pattern="^[0-9,$]*$" placeholder="Solo números">
+          </input ><br>
 
-           <p>Ingrese su nombre</p>
-           <input id="nombre" class="caja" type="text"
-            placeholder="Ingrese aquí su nombre">
-           </input ><br><br>
-           <p id="alertNumero" class="ocultar"></p>
-           <button id="validar" value="validacion">VALIDAR</button>
-          </div>
+          <p>Ingrese su nombre</p>
+          <input id="nombre" class="caja" type="text"
+                  placeholder="Ingrese aquí su nombre">
+          </input ><br><br>
+          <p id="alertNumero" class="ocultar"></p>
+          <button id="validar" value="validacion">Validar</button>
+        </div>
 
-         <!--InterfazValidacion-->
-       <div id="interfazValidacion" class="mostrar">
+    <!--InterfazValidacion-->
+    <div id="interfazValidacion" class="mostrar">
 
-        <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
-        <p id="valida"></p>
-        <P id="noValida"></P>
-        <h1 id="mensaje"></h1>
-       </div>
-     
+      <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
+      <p id="valida"></p>
+      <P id="noValida"></P>
+      <h1 id="mensaje"></h1>
       </div>
+     
+    </div>
 
 
 
