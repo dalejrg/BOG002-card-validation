@@ -100,3 +100,74 @@ div.noticia img.izquierda {
     color: white;
 } 
 
+/*Interfaz Tarjeta Valida*/
+#compraValida {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#mensajeValida{
+    text-align: center;
+    padding: -20px;
+    margin: -40px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#otraCompra{
+    background-color: rgb(96, 81, 150);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+} 
+
+#interfazValida{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px; 
+    text-align: center;
+}
+
+/*Interfaz Tarjeta Invalida*/
+#compraInvalida{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#mensajeInvalida{
+    text-align: center;
+    padding: -20px;
+    margin: -40px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#intentaNuevamente{
+    background-color: rgb(96, 81, 150);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+} 
+
+#interfazInvalida{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px; 
+    text-align: center;
+}

@@ -37,8 +37,7 @@
           Metodo de pago: Tarjeta de crédito 
         </aside> <br><br><br>
       
-        <!--Boton adquirir entrada-->
-        <button id="adquirir">Adquirir Entrada</button>
+        <button id="adquirir">Adquirir Entrada</button> <!--Boton adquirir entrada-->
       </div>
 
     </div>
@@ -51,30 +50,39 @@
         <div id="casillas">
           <p>Ingrese el número de la tarjeta</p>
           <input type="text" class="inputNumber" id="numeroTarjeta" 
-                  maxlength="16" pattern="^[0-9,$]*$" placeholder="Solo números">
+                 maxlength="16" pattern="^[0-9,$]*$" placeholder="Solo números">
           </input ><br>
 
           <p>Ingrese su nombre</p>
           <input id="nombre" class="caja" type="text"
-                  placeholder="Ingrese aquí su nombre">
+                 placeholder="Ingrese aquí su nombre">
           </input ><br><br>
           <p id="alertNumero" class="ocultar"></p>
-          <button id="validar" value="validacion">Validar</button>
+          <button id="validar" value="validacion">Validar Tarjeta</button>
         </div>
 
-    <!--InterfazValidacion-->
-    <div id="interfazValidacion" class="mostrar">
+    </div>    
 
-      <div class="block-element2" style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
-      <p id="valida"></p>
-      <P id="noValida"></P>
-      <h1 id="mensaje"></h1>
-      </div>
-     
+    <!--Interfaz Tarjeta Valida-->
+    <div id="interfazValida">
+
+      <img class="valida" src="./img/Imagen valida.png">
+      <h1 id="compraValida">¡Felicidades tu compra ha sido exitosa!</h1><br>
+      <p id="mensajeValida"> Tu tarjeta es valida </p><br><br><br>
+
+        <button id="otraCompra">Realizar otra Compra</button> <!--Boton adquirir entrada-->
     </div>
 
+    <!--Interfaz Tarjeta Invalida-->
+    <div id="interfazInvalida">
 
+      <img class="invalida" src="./img/imagen invalida.png">
+      <h1 id="compraInvalida">Lo sentimos no se ha podido realizar tu compra</h1><br>
+      <p id="mensajeInvalida"> Tu tarjeta no es valida </p><br><br><br>
 
+        <button id="intentaNuevamente">Intenta Nuevamente</button> <!--Boton intentar nuevamente-->
+    </div>
+     
   </div>    
     <header></header>
     <main>
