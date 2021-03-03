@@ -7,6 +7,14 @@
     display: none;
 }
 
+#interfazValida{
+    display: none;
+}
+
+#interfazInvalida{
+    display: none;
+}
+
 /*Encabezado y fondo*/
 body {
     background: url(./img/Cocierto.jpg) 40%;

@@ -39,8 +39,17 @@ const validator = {
             return false;
           }
 
-        }
+        },
+        maskify: function (mascaraTarjeta) {
+          const enmascarar = mascaraTarjeta.split('');
+          for (let i = 0; i < enmascarar.length - 4; i++) {
+              enmascarar[i] = '#';
+          }
+          return enmascarar.join('')
+      }
 
+        
+      
 }
 
 export default validator;

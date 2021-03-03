@@ -11,8 +11,45 @@ function obtenerNumero(e) {
       validator.isValid(numero)
    } 
    console.log (validator.isValid(numero)) 
-}
+   const tarjetaEnmascarar = validator.maskify(numero);
+   console.log(tarjetaEnmascarar);
 
+   const btnValidar = document.getElementById('validar');
+   btnValidar.addEventListener('click', validando);
+   function validando(){
+      let intValida = document.getElementById('interfazValida');
+      let intInvalida = document.getElementById('interfazInvalida');
+      let ocultInterfaz2 = document.getElementById('interfaz2');
+
+      if (validator.isValid(numero)=== true){
+         intValida.style.display='none';
+         intValida.style.display='block';
+         ocultInterfaz2.style.display='none';
+         
+      }else{
+         intInvalida.style.display =='none';
+         intInvalida.style.display='block';
+         ocultInterfaz2.style.display='none';
+      }
+   const btnOtraCompra = document.getElementById('otraCompra');
+   btnOtraCompra.addEventListener('click', volverInicio);
+   function volverInicio(){
+      let mostrarInterfaz1 = document.getElementById('interfaz1');
+      let interfValida = document.getElementById('interfazValida');
+      mostrarInterfaz1.style.display='block';
+      interfValida.style.display='none';
+   }   
+   const btnVolveraIntentarlo = document.getElementById('intentaNuevamente');
+   btnVolveraIntentarlo.addEventListener('click', volverInterfaz2);
+   function volverInterfaz2(){
+      let mostrarInterfaz2 = document.getElementById('interfaz2');
+      let interfInvalida = document.getElementById('interfazInvalida');
+      mostrarInterfaz2.style.display='block';
+      interfInvalida.style.display='none';
+   }   
+
+   }
+}
 
 
 //Boton adquirir entrada
@@ -33,43 +70,6 @@ function botonAdquirir()
          ocultInterfaz1.style.display = 'none';
         }    
 }
-
-//Boton validar
-//const interfazValidacion = document.getElementById('interfazValidacion');
-//const interfaz2 = document.getElementById('interfaz2');
-
-/*const btnValidar = document.getElementById('validar');
-btnValidar.addEventListener('click', (numeroTarjeta) => {
-let numeroTarjeta = document.getElementById("numeroTarjeta").value;
-validator.isValid(numeroTarjeta);
-}
-
-/*let mensaje;
-const btnValidar = document.getElementById('validar');
-btnValidar.addEventListener('click', (validacion) => {
-   
-
-   let resultadoFinal = validator.isValid(validacionTarjeta);
-   const alertNumero = document.getElementById('alertNumero');
-
-   if (validacionTarjeta === ''){
-      validacion.preventDefault();
-      alertNumero.classList.remove('ocultar');
-      alertNumero.innerHTML = 'Por favor llena este campo';
-   }
-
-   if (resultadoFinal===true){
-      mensaje = 'FELICIDADES TU TARJETA ES VALIDA';
-
-   }else{
-      mensaje = 'LO SENTIMOS, TU TARJETA NO ES VALIDA';
-      interfazValidacion.classList.add('mostrar');
-      interfaz2.classList.remove('ocultar');
-   }
-
-   const mostMensaje = document.getElementById('mensaje');
-   mostMensaje.innerHTML = `${mensaje}`*/
-
 
 
 
