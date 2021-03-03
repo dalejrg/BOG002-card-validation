@@ -2,7 +2,7 @@ import validator from './validator.js';
 
 //console.log(validator.isValid));
 
-//Recibir numero
+//Funcion recibir numero
 const valorTarjeta = document.getElementById("numeroTarjeta");
 valorTarjeta.addEventListener('input', obtenerNumero);
 function obtenerNumero(e) {
@@ -10,7 +10,7 @@ function obtenerNumero(e) {
    if(numero.length === 16){
       validator.isValid(numero)
    } 
-   console.log (numero) 
+   console.log (validator.isValid(numero)) 
 }
 
 
@@ -31,7 +31,7 @@ function botonAdquirir()
       else{
          mostInterfaz2.style.display = 'block';
          ocultInterfaz1.style.display = 'none';
-        }   
+        }    
 }
 
 //Boton validar
