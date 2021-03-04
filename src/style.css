@@ -63,7 +63,7 @@ div.noticia img.izquierda {
 }
 
 #adquirir{
-    background-color: rgb(96, 81, 150);
+    background-color: rgb(47, 36, 85);
     font-size: 30px;
     border-radius: 10px;
     border: 2px solid white;
@@ -98,7 +98,7 @@ div.noticia img.izquierda {
 }    
 
 #validar{
-    background-color: rgb(96, 81, 150);
+    background-color: rgb(47, 36, 85);
     font-size: 30px;
     border-radius: 10px;
     border: 2px solid white;
@@ -109,10 +109,19 @@ div.noticia img.izquierda {
 } 
 
 /*Interfaz Tarjeta Valida*/
+.valida {
+    padding: 30px 0px 0px 0px;
+}
+
+#mostrarMaskify {
+    font-size: 40px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
 #compraValida {
     font-size: 45px;
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Tenor Sans', sans-serif;
 }
 
@@ -121,13 +130,13 @@ div.noticia img.izquierda {
     padding: -20px;
     margin: -40px;
     font-size: 40px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: 'Tenor Sans', sans-serif;
 }
 
 #otraCompra{
-    background-color: rgb(96, 81, 150);
+    background-color: rgb(47, 36, 85);
     font-size: 30px;
     border-radius: 10px;
     border: 2px solid white;
@@ -148,7 +157,7 @@ div.noticia img.izquierda {
 #compraInvalida{
     font-size: 45px;
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Tenor Sans', sans-serif;
 }
 
@@ -157,13 +166,13 @@ div.noticia img.izquierda {
     padding: -20px;
     margin: -40px;
     font-size: 40px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: 'Tenor Sans', sans-serif;
 }
 
 #intentaNuevamente{
-    background-color: rgb(96, 81, 150);
+    background-color: rgb(47, 36, 85);
     font-size: 30px;
     border-radius: 10px;
     border: 2px solid white;
@@ -178,4 +187,18 @@ div.noticia img.izquierda {
     font-weight: bold;
     font-size: 25px; 
     text-align: center;
+}
+
+/*Pie de Pagina*/
+footer {
+    text-align: center;
+    background: white;
+    margin: 100px 0px 0px 0px;
+}
+
+.piePagina {
+    font-family: 'Russo One', sans-serif;
+    color: rgb(32, 10, 73);
+    margin: 0;
+    padding: 4px;
 }

@@ -10,13 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Truculenta:wght@500&display=swap" rel="stylesheet"> 
   
-    <!--Encabezado-->
+  <!--Encabezado-->
     <div class="block-element" 
            style="color: rgb(255, 255, 255);" >LiveMusic.com</div>
   </head>
 
   <body>
-    <!--Interfaz 1-->
+  <!--Interfaz 1-->
     <div id="interfaz1">
 
       <h1 id="tprincipal">Bienvenido a LiveMusic</h1>
@@ -26,7 +26,7 @@
         <img class="izquierda" src="./img/Cartel evento.jpg" 
            style="height: 543px; width: 389px;">
 
-        <!--Informacion evento-->   
+      <!--Informacion evento-->   
         <aside> <br> <br> <br>
           ROCK FESTIVAL <br>
           ¡EN CONCIERTO! <br>
@@ -42,7 +42,7 @@
 
     </div>
 
-    <!--Interfaz 2-->    
+  <!--Interfaz 2-->    
     <div id="interfaz2" class="ocultar">
 
       <img class="plantilla" src="./img/imagen tarjeta.png">
@@ -57,38 +57,38 @@
           <input id="nombre" class="caja" type="text"
                  placeholder="Ingrese aquí su nombre">
           </input ><br><br>
-          <p id="alertNumero" class="ocultar"></p>
           <button id="validar" value="validacion">Validar Tarjeta</button>
         </div>
 
     </div>    
 
-    <!--Interfaz Tarjeta Valida-->
+  <!--Interfaz Tarjeta Valida-->
     <div id="interfazValida">
 
-      <img class="valida" src="./img/Imagen valida.png">
-      <h1 id="compraValida">¡Felicidades tu compra ha sido exitosa!</h1><br>
-      <p id="mensajeValida"> Tu tarjeta es valida </p><br><br><br>
+      <img class="valida" src="./img/Imagen valida.png"
+              style="height: 350px; width: 300px;">
+      <h1 id="compraValida">¡Felicidades tu compra ha sido exitosa!</h1>
+      <p id="mostrarMaskify"></p><br>
+      <p id="mensajeValida"> Tu tarjeta es valida </p><br><br><br><br>
 
-        <button id="otraCompra">Realizar otra Compra</button> <!--Boton adquirir entrada-->
+        <button id="otraCompra">Realizar otra Compra</button> <!--Boton realizar otra compra-->
     </div>
 
-    <!--Interfaz Tarjeta Invalida-->
+  <!--Interfaz Tarjeta Invalida-->
     <div id="interfazInvalida">
 
-      <img class="invalida" src="./img/imagen invalida.png">
+      <img class="invalida" src="./img/imagen invalida.png"
+              style="height: 350px; width: 350px;">
       <h1 id="compraInvalida">Lo sentimos no se ha podido realizar tu compra</h1><br>
       <p id="mensajeInvalida"> Tu tarjeta no es valida </p><br><br><br>
 
         <button id="intentaNuevamente">Intenta Nuevamente</button> <!--Boton intentar nuevamente-->
     </div>
-     
   </div>    
-    <header></header>
-    <main>
-      
-    </main>
-    <footer></footer>
+    
+    <footer>
+      <p class="piePagina">© Dayana Rodriguez & Milena Granados - Laboratoria 2021</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
