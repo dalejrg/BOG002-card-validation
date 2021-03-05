@@ -22,8 +22,8 @@ const validator = {
         suma += arrayNumero[i];
       }
                          
-        console.log(arrayNumero);
-        console.log(suma);
+        //console.log(arrayNumero);
+        //console.log(suma);
 
       if (suma % 10 === 0){
         return true;
@@ -36,7 +36,7 @@ const validator = {
   maskify: function (mascaraTarjeta) {
           const enmascarar = mascaraTarjeta.split('');
           for (let i = 0; i < enmascarar.length - 4; i++) {
-              enmascarar[i] = '*';
+              enmascarar[i] = '#';
           }
           return enmascarar.join('')
       }

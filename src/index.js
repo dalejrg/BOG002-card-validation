@@ -13,9 +13,9 @@ function obtenerNumero(e) {
    }
 
 //Funcion Enmascarar   
-   console.log (validator.isValid(numero)) 
-   const tarjetaEnmascarar = validator.maskify(numero);
-   console.log(tarjetaEnmascarar);
+   //console.log (validator.isValid(numero)) 
+   //const tarjetaEnmascarar = validator.maskify(numero);
+   //console.log(tarjetaEnmascarar);
 
 //Funcion boton Validar
    const btnValidar = document.getElementById('validar');
@@ -58,7 +58,7 @@ function obtenerNumero(e) {
          interfInvalida.style.display='none';
    }   
    }
-
+let mostrarMaskify = document.getElementById('mostrarMaskify');
 mostrarMaskify.innerHTML = validator.maskify(numero);
 }
 
