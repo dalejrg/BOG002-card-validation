@@ -3,10 +3,6 @@
     display: none;
 }
 
-#interfazValidacion{
-    display: none;
-}
-
 #interfazValida{
     display: none;
 }
@@ -75,8 +71,8 @@ div.noticia img.izquierda {
   
 /*Interfaz 2*/    
 .plantilla {
-    width: 1192px;
-    height: 268px;
+    width: 1162px;
+    height: 248px;
     padding: 6% 0% 0% 20%;
 }
 
@@ -119,7 +115,7 @@ div.noticia img.izquierda {
 }
 
 #compraValida {
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
     color: black;
     font-family: 'Tenor Sans', sans-serif;
@@ -129,7 +125,7 @@ div.noticia img.izquierda {
     text-align: center;
     padding: -20px;
     margin: -40px;
-    font-size: 40px;
+    font-size: 35px;
     color: black;
     font-weight: bold;
     font-family: 'Tenor Sans', sans-serif;
@@ -154,6 +150,7 @@ div.noticia img.izquierda {
 }
 
 /*Interfaz Tarjeta Invalida*/
+
 #compraInvalida{
     font-size: 45px;
     text-align: center;
@@ -193,7 +190,7 @@ div.noticia img.izquierda {
 footer {
     text-align: center;
     background: white;
-    margin: 100px 0px 0px 0px;
+    margin: 150px 0px 0px 0px;
 }
 
 .piePagina {
