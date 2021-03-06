@@ -11,11 +11,13 @@ donde el usuario podra adquirir una boleta que debera cancelar con tarjeta de cr
 ## Investigación UX
 
 * Explicar quienes son los usuarios y los objetivos en relación con el usuario
+
 Este proyecto va enfocado en aquellos usuarios que muestran interés por la música y les gustan las bandas de rock populares, 
 nuestro objetivo es que los usuarios interesados en el evento, puedan adquirir sus boletas pagando con tarjeta de crédito, 
 en donde tendrán la opción de ingresar el número de la TDC para validar que el número sea correcto y que la compra sea exitosa.
 
 * Explicar como el producto soluciona los problemas/necesidades de dichos usuarios
+
 En la situación que nos encontramos actualmente debido al COVID, nuestro producto ofrece la solución de poder vivir la 
 experiencia de un concierto desde casa y con la facilidad de cancelarlo de manera virtual sin necesidad de tener que dirigirse a otro lugar.
 
@@ -26,6 +28,7 @@ experiencia de un concierto desde casa y con la facilidad de cancelarlo de maner
 <p align = "center"> <img src = https://github.com/dalejrg/BOG002-card-validation/blob/estructura/src/img%20readme/Boceto2.jpg> </p>
 
 * Resumen del Feedback recibido y mejoras a realizar
+
 En la parte del diseño se nos sugirió dar un tamaño más adecuado a los botones y un color que contrastara,
 utilizar imagénes acordes a la temática del producto.
 
