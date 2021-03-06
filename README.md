@@ -1,15 +1,12 @@
-# LiveMusic
+# LiveMusic.com
 
 Se trata de una página de venta de boletas para conciertos via streaming. En nuestro proyecto nos enfocamos en un festival de rock,
 donde el usuario podra adquirir una boleta que debera cancelar con tarjeta de credito.
 
-![](img readme/Interfaz1.jpg)
-
-![](img readme/Interfaz2.jpg)
-
-![](img readme/Interfaz3.jpg)
-
-![](img readme/Interfaz4.jpg)
+<p align = "center"> <img src = https://github.com/dalejrg/BOG002-card-validation/blob/estructura/src/img%20readme/Interfaz1.jpg> </p>
+<p align = "center"> <img src = https://github.com/dalejrg/BOG002-card-validation/blob/estructura/src/img%20readme/Interfaz2.jpg> </p>
+<p align = "center"> <img src = https://github.com/dalejrg/BOG002-card-validation/blob/estructura/src/img%20readme/Interfaz3.jpg> </p>
+<p align = "center"> <img src = https://github.com/dalejrg/BOG002-card-validation/blob/estructura/src/img%20readme/Interfaz4.jpg> </p>
 
 ## Investigación UX
 
@@ -24,9 +21,9 @@ experiencia de un concierto desde casa y con la facilidad de cancelarlo de maner
 
 * Foto del primer prototipo en papel
 
-![](img readme/Boceto1.jpg)
+<p align = "center"> <img src = https://github.com/dalejrg/BOG002-card-validation/blob/estructura/src/img%20readme/Boceto1.jpg> </p>
 
-![](img readme/Boceto2.jpg)
+<p align = "center"> <img src = https://github.com/dalejrg/BOG002-card-validation/blob/estructura/src/img%20readme/Boceto2.jpg> </p>
 
 * Resumen del Feedback recibido y mejoras a realizar
 En la parte del diseño se nos sugirió dar un tamaño más adecuado a los botones y un color que contrastara,
