@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>LiveMusic</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Truculenta:wght@500&display=swap"
+    rel="stylesheet">
+
+  <!--Encabezado-->
+  <div class="block-element" style="color: rgb(255, 255, 255);">LiveMusic.com</div>
+</head>
+
+<body>
+  <!--Interfaz 1-->
+  <div id="interfaz1">
+
+    <h1 id="tprincipal">Bienvenido a LiveMusic</h1>
+    <p id="tsecundario">Ahora puedes vivir la experiencia virtual de un concierto</p>
+
+    <div class="noticia">
+      <img class="izquierda" src="./img/Cartel evento.jpg" style="height: 543px; width: 389px;">
+
+      <!--Informacion evento-->
+      <aside> <br> <br> <br>
+        ROCK FESTIVAL <br>
+        ¡EN CONCIERTO! <br>
+        Live Streaming <br><br><br>
+        Fecha: 20/marzo/2021 <br>
+        Hora: 8:00 pm <br>
+        Precio: $50.000 COP <br>
+        Metodo de pago: Tarjeta de crédito
+      </aside> <br><br><br>
+
+      <button id="adquirir">Adquirir Entrada</button>
+      <!--Boton adquirir entrada-->
+    </div>
+
+  </div>
+
+  <!--Interfaz 2-->
+  <div id="interfaz2" class="ocultar">
+
+    <img class="plantilla" src="./img/imagen tarjeta.png">
+
+    <div id="casillas">
+      <p>Ingrese el número de la tarjeta</p>
+      <input type="text" class="inputNumber" id="numeroTarjeta" maxlength="16" pattern="^[0-9,$]*$"
+        placeholder="Solo números">
+      <br>
+
+      <p>Ingrese su nombre</p>
+      <input id="nombre" class="caja" type="text" placeholder="Ingrese aquí su nombre">
+      <br><br>
+      <button id="validar" value="validacion">Validar Tarjeta</button>
+    </div>
+
+  </div>
+
+  <!--Interfaz Tarjeta Valida-->
+  <div id="interfazValida">
+
+    <img class="valida" src="./img/Imagen valida.png" style="height: 350px; width: 300px;">
+    <h1 id="compraValida">¡Felicidades tu compra ha sido exitosa!</h1>
+    <p id="mostrarMaskify"></p><br>
+    <p id="mensajeValida"> Tu tarjeta es valida </p><br><br><br><br>
+
+    <button id="otraCompra">Realizar otra Compra</button>
+    <!--Boton realizar otra compra-->
+  </div>
+
+  <!--Interfaz Tarjeta Invalida-->
+  <div id="interfazInvalida">
+
+    <img class="invalida" src="./img/imagen invalida.png" style="height: 350px; width: 350px;">
+    <h1 id="compraInvalida">Lo sentimos no se ha podido realizar tu compra</h1><br>
+    <p id="mensajeInvalida"> Tu tarjeta no es valida </p><br><br><br>
+
+    <button id="intentaNuevamente">Intenta Nuevamente</button>
+    <!--Boton intentar nuevamente-->
+  </div>
+
+
+  <footer>
+    <p class="piePagina">© Dayana Rodriguez y Milena Granados - Laboratoria 2021</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

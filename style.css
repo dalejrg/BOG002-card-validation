@@ -1,0 +1,204 @@
+
+#interfaz2{
+    display: none;
+}
+
+#interfazValidacion{
+    display: none;
+}
+
+#interfazValida{
+    display: none;
+}
+
+#interfazInvalida{
+    display: none;
+}
+
+/*Encabezado y fondo*/
+body {
+    background: url(./img/Cocierto.jpg) 40%;
+}
+
+.block-element{
+    background-color: rgb(32, 10, 73);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 40px;
+    border: 2px solid white;
+    font-family:'Russo One', sans-serif;
+    letter-spacing: 3px;
+}
+
+/*Interfaz 1*/
+#tprincipal {
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#tsecundario{
+    text-align: center;
+    padding: -20px;
+    margin: -40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    color: rgb(12, 4, 4);
+    padding: 10px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+  
+div.noticia img.izquierda {
+    float: left;
+    margin-right: 50px;
+    padding: 50px 0px 0px 100px;
+}
+
+#adquirir{
+    background-color: rgb(47, 36, 85);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    }  
+  
+/*Interfaz 2*/    
+.plantilla {
+    width: 1192px;
+    height: 268px;
+    padding: 6% 0% 0% 20%;
+}
+
+#casillas {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px; 
+    text-align: center;
+    }
+
+.inputNumber {
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.caja {
+    font-size: 25px;
+    border-radius: 10px;
+}    
+
+#validar{
+    background-color: rgb(47, 36, 85);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+} 
+
+/*Interfaz Tarjeta Valida*/
+.valida {
+    padding: 30px 0px 0px 0px;
+}
+
+#mostrarMaskify {
+    font-size: 40px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#compraValida {
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#mensajeValida{
+    text-align: center;
+    padding: -20px;
+    margin: -40px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#otraCompra{
+    background-color: rgb(47, 36, 85);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+} 
+
+#interfazValida{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px; 
+    text-align: center;
+}
+
+/*Interfaz Tarjeta Invalida*/
+#compraInvalida{
+    font-size: 45px;
+    text-align: center;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#mensajeInvalida{
+    text-align: center;
+    padding: -20px;
+    margin: -40px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+#intentaNuevamente{
+    background-color: rgb(47, 36, 85);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+} 
+
+#interfazInvalida{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px; 
+    text-align: center;
+}
+
+/*Pie de Pagina*/
+footer {
+    text-align: center;
+    background: white;
+    margin: 100px 0px 0px 0px;
+}
+
+.piePagina {
+    font-family: 'Russo One', sans-serif;
+    color: rgb(32, 10, 73);
+    margin: 0;
+    padding: 4px;
+}
